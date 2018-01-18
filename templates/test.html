@@ -1,0 +1,5 @@
+{% for blog in blog_list %}
+    <h2>标题：{{ blog.title }}</h2>
+    <p>发表时间：{{ blog.timestamp }}</p>
+    <p>正文：{{ blog.body }}</p>
+{% endfor %}
